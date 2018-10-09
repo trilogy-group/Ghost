@@ -8,12 +8,15 @@
 # Quick Start
 - Clone the repository
 - Open a terminal session to that folder
-- Run `docker/docker-cli start`
-- Run `docker/docker-cli exec`
+- Run `docker/docker-cli start` : It will build the docker.
+- Run `docker/docker-cli exec` :  It will take you inside container..
 - At this point you must be inside the docker container, in the root folder of the project. From there, you can run the commands as usual:
 	- `yarn setup` to first-time setup & install tasks.
-	- `grunt dev` to start Ghost.
+	- 'nginx' to start nginx.
+	- `grunt dev` to start Ghost. Wait for Build successful.
+	-  Open http://127.0.0.1:2368/
 	- `grunt test-all` to run tests.
+
 	
 - When you finish working with the container, type `exit`
 - Run `docker/docker-cli stop` to stop and remove the service.

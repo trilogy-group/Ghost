@@ -28,3 +28,4 @@ sync-ignore: |
   .DS_Store
   .data
   node_modules
+  bower_components

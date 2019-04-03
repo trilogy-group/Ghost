@@ -40,13 +40,13 @@ Please, follow these steps to create a new DevSpace and build the Ghost project 
 
     a. To clone the repository inside the container you can run the following command:
 
-                git clone --recursive https://github.com/trilogy-group/Ghost.git
+                git clone https://github.com/trilogy-group/Ghost.git
 
     * If you want to clone the repository inside the `/data` folder you will need to first clean it (**CAUTION: if it is bonded, the files in local environment will be deleted too**):
 
                 cd /data
                 rm -rf .* *
-                git clone --recursive https://github.com/trilogy-group/Ghost.git .
+                git clone https://github.com/trilogy-group/Ghost.git .
 
     b. To bind a folder to the created and started DevSpace, it is needed to follow the steps below:
 

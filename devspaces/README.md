@@ -63,7 +63,7 @@ Please, follow these steps to create a new DevSpace and build the Ghost project 
 
 1. The Ghost web UI has some links configured with absolute paths URLs. So, it is needed to config the host and port for the exposed server to get it working. To do that, we need to run the `env_config` but, first, we need to discover what is the host and port by running the info command:
 
-        devspaces info jive-mitui-cloud
+        devspaces info ghost
 
 1. The above command will show information about the given devspace. You need to copy the URL for the port `2368`  and run the `env_config` script passing that URL, for instance:
 

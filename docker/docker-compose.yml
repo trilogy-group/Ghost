@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ghost:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: ghost-dev
+    ports:
+    - "2368:9191"
+    volumes:
+      - ..:/data:Z
+    tty: true
